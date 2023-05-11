@@ -1,0 +1,16 @@
+{
+    "Flight_number": "EY123",
+    "Service_Type": "J",
+    "Eff": "01MAY22",
+    "Dis": "31MAY22",
+    "Days_of_operation": "1234567",
+    "Dept_Stn": "AUH",
+    "Dept_time_pax": "1000",
+    "Arvl_Stn": "JFK",
+    "Arvl_time_pax": "1600",
+    "Equipment": "789",
+    "Aircraft_configuration": "C12Y270",
+    "Departure_country": "AE",
+    "Arrival_country": "US"
+  }
+  

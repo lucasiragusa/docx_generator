@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "Flight_number": {
+        "type": "string"
+      },
+      "Service_Type": {
+        "type": "string"
+      },
+      "Eff": {
+        "type": "string",
+        "format": "date"
+      },
+      "Dis": {
+        "type": "string",
+        "format": "date"
+      },
+      "Days_of_operation": {
+        "type": "string"
+      },
+      "Dept_Stn": {
+        "type": "string"
+      },
+      "Dept_time_pax": {
+        "type": "string"
+      },
+      "Arvl_Stn": {
+        "type": "string"
+      },
+      "Arvl_time_pax": {
+        "type": "string"
+      },
+      "Equipment": {
+        "type": "string"
+      },
+      "Aircraft_configuration": {
+        "type": "string"
+      },
+      "Departure_country": {
+        "type": "string"
+      },
+      "Arrival_country": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "Flight_number",
+      "Service_Type",
+      "Eff",
+      "Dis",
+      "Days_of_operation",
+      "Dept_Stn",
+      "Dept_time_pax",
+      "Arvl_Stn",
+      "Arvl_time_pax",
+      "Equipment",
+      "Aircraft_configuration",
+      "Departure_country",
+      "Arrival_country"
+    ]
+  }
+  
