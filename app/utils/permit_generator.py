@@ -55,7 +55,7 @@ def create_permit_document(regulator, airline, representative_name, start_date, 
 
     table = document.add_table(rows=1, cols=len(dataframe.columns))
     header_cells = table.rows[0].cells
-    header_fill_color_hex = "001A23"  # Hex of Dark Blue Shade {R:0x00, G:0x51, B:0x9E}
+    header_fill_color_hex = "001A23"  # Hex of Dark Blue Shade
 
     for idx, column_name in enumerate(dataframe.columns):
         header_cells[idx].text = column_name
@@ -71,7 +71,6 @@ def create_permit_document(regulator, airline, representative_name, start_date, 
 
     # Leave more blank space under the table
     # document.add_paragraph("\n")
-    document.add_paragraph("We assure you that our operations will comply with all the regulatory requirements, and we will work closely with your team to ensure that all necessary procedures are followed.")
     document.add_paragraph("We appreciate your time and attention to our request, and we look forward to hearing back from you soon. Please do not hesitate to contact us if you require any further information.")
     document.add_paragraph(f"Thank you for your kind consideration.")
     document.add_paragraph(f"Sincerely,")
